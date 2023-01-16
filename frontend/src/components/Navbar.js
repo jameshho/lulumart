@@ -10,7 +10,9 @@ const Navbar = () => {
             <NavLink to="/signin" className='nav--item'>Sign in </NavLink>
             <NavLink to="/profile" className="nav--item">Profile</NavLink>
             <NavLink to="/productpage" className="nav--item">Product</NavLink>
+            {/* <NavLink to="/cart" className="nav--item"><img src='../images/shopping-cart.png'/></NavLink> */}
             <NavLink to="/cart" className="nav--item">Cart</NavLink>
+            
             <NavLink to="/productdetail" className="nav--item">Product Detail</NavLink>
         </nav>
     )

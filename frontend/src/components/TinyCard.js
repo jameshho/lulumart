@@ -6,7 +6,7 @@ const TinyCard = ({obj}) => {
     const productname = obj.productname
     return (
         <div className='tinycard'>
-            <img className='tinycard-photo' src={`../images/${img}`} />
+            <img className='tinycard-photo' src={`../images/products-img/${img}`} />
             <div className='tinycard--star-container'>
 
                 <img src='../images/star-png.png' className='tinycard--star' />
